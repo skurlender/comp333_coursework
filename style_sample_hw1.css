@@ -1,0 +1,72 @@
+box {
+    background-color: green;
+    width: 1000px;
+    padding: 50px;
+    margin: 90px;
+  }
+
+h1 {
+    font-family: monospace; 
+    font-size: x-large; 
+    text-align: center;
+}
+
+.css-box-model-class {
+    /* 
+        Demonstrates the CSS Box Model
+    */
+    border-width: 2px;
+    /* 
+        In order to see the border, you will need a border style.
+     */
+    border-style: solid;
+    /* 
+        You can add a margin to all four borders. If there is only one value, 
+        all borders are affected You can specify in clockwise order: 
+        top, right, bottom, left.
+    */
+    margin: 10px 5px 15px 25px;
+    /* 
+        While margins are at the outside of the border, paddings are at the 
+        inside. You can specify a single value for all four margins, but you 
+        could also specify the padding individually the as for the margins.
+    */
+    padding: 50px;
+}
+
+.navbar ul {
+    /* 
+        Remove bullet points.
+    */
+    list-style: none;
+    width: 175px;
+    margin: 0 auto;
+    /* 
+        No padding.
+    */
+    padding: 0;
+    /* 
+        For navbars use background color that stands out.
+    */
+    background-color: rgb(14, 22, 136);
+    text-align: right;
+    color: white
+}
+
+.navbar li {
+    width: 150 px;
+    background-color: rgb(78, 8, 69);
+    border: 1px solid red;
+    /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+    */
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.navbar a {
+    color:#fff;
+    text-decoration: none;
+}
