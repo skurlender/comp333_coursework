@@ -1,22 +1,32 @@
 #box {
     background-color: green;
     border: 10px solid rgb(185, 149, 173);
-    width: 1000px;
-    padding: 50px;
+    width: 100%;
+    padding: 20px;
     margin: 10px;
     height: 400px;
-    /* top: 50%;
-    bottom: 50%; */
   }
 
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 2vw;
+    padding-right: 2vw; */
+}
 
 
 h1 {
     font-family: sans-serif;
-    font-size: 10rem; 
+    font-size: 8vw; 
     text-align: center;
     color: white
 }
+
+.br1 {
+    display: block;
+    margin: 5px 0;
+ }
 
 body {
     background-color: lightblue;
@@ -28,7 +38,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 60vw;
 }
 
 .checked {
@@ -64,8 +74,8 @@ body {
 
 .navbar ul {
     list-style: none;
-    width: 750px;
-    font-size: 50px;
+    width: 100vw;
+    font-size: 179%;
     margin: 0 auto;
 
     padding: 0;
@@ -76,7 +86,7 @@ body {
 }
 
 .navbar li {
-    width: 150 px;
+    width: 25vw;
     background-color: rgb(78, 8, 69);
     border: 1px solid red;
     /* 
